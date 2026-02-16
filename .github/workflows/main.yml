@@ -4,7 +4,7 @@ on:
   push: [ "main" ]
 
 jobs:
-  print-message:
+  build-and-test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
