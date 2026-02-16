@@ -1,8 +1,8 @@
-name: Workflow with python 
+name: Workflow with python
 
 on:
   push:
-  branches: [ "main" ]
+    branches: [ "main" ]
 
 jobs:
   build-and-test:
