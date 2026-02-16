@@ -1,7 +1,8 @@
 name: Workflow with python 
 
 on:
-  push: [ "main" ]
+  push:
+  branches: [ "main" ]
 
 jobs:
   build-and-test:
